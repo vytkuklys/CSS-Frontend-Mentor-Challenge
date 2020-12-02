@@ -170,7 +170,8 @@ header p {
     .container-stars .star-report {
         margin-right: 3%;
     }
-
+    
+    /*Code for comment reviews bellow*/
     .container-reviews {
         display: flex;
         flex-direction: row;
