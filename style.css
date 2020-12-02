@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
 }
 
 body {
@@ -82,8 +84,7 @@ header p {
 }
 
 .review {
-    width: 100%;
-    max-width: 26rem;
+    max-width: 25rem;
     max-height: 18.5rem;
     padding: 7.5% 6.5%;
     margin: 5% auto;
