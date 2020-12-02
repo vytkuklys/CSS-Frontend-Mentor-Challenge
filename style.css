@@ -192,15 +192,15 @@ header p {
 
     .container {
         position: relative;
-        padding: 7rem;
+        padding: 6rem;
         padding-bottom: 0;
         background-image: url(images/bg-pattern-top-desktop.svg);
     }
 
     .container-stars {
         position: absolute;
-        top: 7rem;
-        right: 7rem;
+        top: 6rem;
+        right: 6rem;
         margin: 0;
     }
 
