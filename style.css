@@ -17,6 +17,7 @@ body {
 
 .container {
     width: 100%;
+    max-width: 1500px;
     height: 100%;
     background-image: url(images/bg-pattern-top-mobile.svg);
     background-repeat: no-repeat;
@@ -171,8 +172,7 @@ header p {
     .container-stars .star-report {
         margin-right: 3%;
     }
-    
-    /*Code for comment reviews bellow*/
+
     .container-reviews {
         display: flex;
         flex-direction: row;
@@ -193,21 +193,19 @@ header p {
     }
 
     .container {
-        position: relative;
         padding: 6rem;
         padding-bottom: 0;
         background-image: url(images/bg-pattern-top-desktop.svg);
     }
-
+    .wrapper-flex{
+        display: flex;
+        justify-content: space-between;
+    }
     .container-stars {
-        position: absolute;
-        top: 6rem;
-        right: 6rem;
         margin: 0;
     }
 
     .container-stars div {
-        max-width: 31.5;
         padding-right: 2.5%;
     }
 
@@ -246,7 +244,8 @@ header p {
     .container-stars .star-report {
         margin-right: 6%;
     }
-    .container-reviews .review {
-        max-width: 26rem;
+
+    .container-reviews .review{
+        max-width: 25rem;
     }
 }
