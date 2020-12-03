@@ -181,6 +181,7 @@ header p {
     }
 
     .container-reviews .review {
+        max-width: 22rem;
         margin: 2.5% 0;
         padding: 5% 5%;
     }
@@ -244,5 +245,8 @@ header p {
 
     .container-stars .star-report {
         margin-right: 6%;
+    }
+    .container-reviews .review {
+        max-width: 26rem;
     }
 }
